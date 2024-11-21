@@ -1,0 +1,29 @@
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 200px;
+    margin: 2em;
+    border: 0cap;
+    padding: 20px;
+    background-color: rgb(151, 152, 236);
+    color: rgb(236, 236, 224);
+    text-align: center;
+}
+aside img{
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 15o;
+    height: auto;
+}
+p {
+    padding: 0;
+}
+footer {
+    margin-top: 15x;
+    border-top: 1px solid #000;
+    text-align: center;
+}
