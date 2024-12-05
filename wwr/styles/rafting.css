@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+}
+
+body {
+  font-family: 'YourFontChoice', sans-serif;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+  color: rgb(67, 48, 238);
+}
+
+article p{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+footer {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 10px;
+}
+
+footer img {
+  width: 30px;
+  margin: 0 10px;
+}
