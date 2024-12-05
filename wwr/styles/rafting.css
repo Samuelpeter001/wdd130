@@ -26,7 +26,7 @@ nav a {
   position: relative;
 }
 
-.hero-image {
+div img {
   width: 100%;
   height: auto;
 }
@@ -38,13 +38,17 @@ h1 {
   color: rgb(67, 48, 238);
 }
 
-article p{
+article {
   position: absolute;
   bottom: 10%;
-  left: 5%;
-  background-color: rgba(255, 255, 255, 0.8);
+  left: 1%;
+  background-color: rgba(240, 234, 234, 0.8);
   padding: 20px;
 }
+article img {
+  width: 100px;
+}
+
 footer {
   background-color: var(--secondary-color);
   text-align: center;
@@ -53,5 +57,5 @@ footer {
 
 footer img {
   width: 30px;
-  margin: 0 10px;
+  margin: 0 1px;
 }
