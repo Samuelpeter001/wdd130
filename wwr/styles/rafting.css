@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #3498db;
+  --primary-color: #864468d5;
   --secondary-color: #2ecc71;
   --text-color: #333;
+  --background-image: url("images/rafting.jpg");
 }
 
 body {
@@ -9,12 +10,14 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
+  
 }
 
 header {
   background-color: var(--primary-color);
   padding: 20px;
 }
+
 
 nav a {
   color: white;
@@ -23,12 +26,26 @@ nav a {
 }
 
 .hero {
+  display: grid;
+  grid-template-columns: fr 1fr;
+  grid-column: 1/2;
   position: relative;
+  justify-content: space-around;
+}
+.hero h1 {
+  display: flex;
+  margin-left: 400px;
+  margin-top: -20px;
+  justify-content: center;
+  align-self: center;
+  color: #302525;
 }
 
 div img {
   width: 100%;
   height: auto;
+  float: right;
+  order: 2;
 }
 
 h1 {
@@ -38,17 +55,45 @@ h1 {
   color: rgb(67, 48, 238);
 }
 
-article {
+.hero article {
   position: absolute;
-  bottom: 10%;
-  left: 1%;
+  justify-content: flex-start;
+  margin-top: 50px;
   background-color: rgba(240, 234, 234, 0.8);
   padding: 20px;
 }
 article img {
   width: 100px;
 }
-
+.sec {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  margin-top: 200px;
+  justify-content: space-between;
+}
+.sec h2 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-self: center;
+  align-self: center;
+}
+.sec p {
+  order: 2;
+}
+.sec2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.sec2 h2 {
+  grid-column-start: 1;
+  grid-column-end: 10;
+  justify-self: center;
+  margin-top: 100px;
+}
+.end {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+}
 footer {
   background-color: var(--secondary-color);
   text-align: center;
@@ -58,4 +103,26 @@ footer {
 footer img {
   width: 30px;
   margin: 0 1px;
+}
+.heading {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.navigation{
+  display: flex;
+  border: 3px solid #302525;
+  box-sizing: content-box;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(68, 109, 109);
+  min-width: 100px;
+}
+body header img{
+  margin-left: 200px;
+  
 }
