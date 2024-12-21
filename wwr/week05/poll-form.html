@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Samuel Peter | HTML Form - User Poll</h1>
+</header>
+
+<main>
+    <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <div class="form-item column2">
+                <label for="fullname">Fullname</label>
+                <input type="text" id="fullname" name="fullname" value="fullname">
+            </div>
+            <div class="form-item column2">
+                <label for="Username">Username</label>
+                <input type="text" id="username" name="username" value="username">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Question</legend>
+            <div class="form-item column1">
+                <label for="browser">What is your favorite browser</label>
+                <select id="browser" name="browser">
+            </div>
+                <option value="chrome">Chrome</option>
+                <option value="opera">Opera</option>
+                <option value="firefox">Firefox</option>
+                <option value="ucbrowser">Ucbrowser</option>
+            </select>
+            <div class="form-item column2">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet" value="pet">
+            </div>
+            <div class="form-item column1"></div>
+                <label for="pet">List the places you have lived</label>
+            </div>
+            <textarea name="feedback" id="feedback" value="feedback" rows="4" placeholder="New York, Florida, Texas"></textarea>
+            <button type="submit">submit Poll</button>
+        </fieldset>
+    </form>
+
+</main>
+<footer>
+    <p>©2025 | HTML Form - User Poll Activity | Samuel Peter</p>
+</footer>
+</body>
+</html>
