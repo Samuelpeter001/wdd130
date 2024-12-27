@@ -1,17 +1,30 @@
+
 .heading {
     display: flex;
-    position: absolute;
     grid-template-columns: 40% 70%;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(5, 46, 46);
-    height: 180px;
+    position: absolute;
     width: 100%;
+    height: 180px;
+}
+main {
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 200px;
+}
+main img {
+    height: 100px;
+    width: 1500px;
 }
 .navigation {
     display: flex;
     box-sizing: content-box;
-    border: 3px solid grey;
+    border: 3px solid rgb(49, 42, 42);
     background-color: rgb(226, 211, 211);
     justify-content: center;
     min-width: 100px;
@@ -24,18 +37,11 @@ h1, h2{
 }
 header img {
     margin-left: 200px;
-    height: 180px;
-}
-main {
-    display: grid;
-    grid-template-rows: 1fr;
-    margin-top: 130px;
-    position: absolute;
+    position: relative;
 }
 main img {
     margin-left: 350px;
     width: 400px;
-    height: 50px;
 }
 p {
     display: block;
@@ -46,19 +52,16 @@ p {
     background-color: bisque;
     width: 100%;
 }
-.end {
-    display: grid;
-    justify-content: center;
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(68, 65, 65);
+    letter-spacing: 3px;
 }
-nav a img {
-    display: flex;
-    width: 20px;
-
+th, td{
+    border: 2px solid gray;
+    padding: 8px 10px;
+    text-align: center;
 }
-.sociallinks {
-    display: flex;
-    margin-top: 600px;
-    width: 200px;
-    justify-content: space-around;
-    align-items: center;
+thead {
+    background-color: rgb(201, 201, 88);
 }
