@@ -1,0 +1,45 @@
+.heading {
+    display: grid;
+    grid-template-columns: 40% 70%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(5, 46, 46);
+}
+.navigation {
+    display: flex;
+    box-sizing: content-box;
+    border: 3px solid red;
+    background-color: rgb(226, 211, 211);
+    justify-content: center;
+    min-width: 100px;
+    margin-right: auto;
+}
+h1, h2{
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 50px;
+}
+header img {
+    margin-left: 200px;
+}
+main img {
+    margin-left: 350px;
+    width: 400px;
+}
+p {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    margin-right: 150px;
+    background-color: bisque;
+    width: 100%;
+}
+.end {
+    display: grid;
+}
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
