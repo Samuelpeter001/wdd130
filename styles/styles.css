@@ -3,25 +3,15 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 10px solid rgb(233, 241, 248);
-    padding: 20px;
-    background-color: aliceblue;
-    color: black;
+    margin: 1rem
 }
-aside img {
+img {
     max-width: 200px;
     height: auto;
 }
 main img {
-    padding: 50px;
     width: 150px;
     height: auto;
-    border: 10px solid rgb(233, 241, 248);
-    background-color: aliceblue;
-}
-h1 {
-    color: black;
 }
 p {
     padding: 0;
@@ -31,11 +21,8 @@ footer {
     border-top: 1px solid black;
     text-align: center;
 }
-nav a{
+header a{
     margin: 10px;
     text-decoration: none;
     color: rgb(29, 21, 21);
-}
-nav {
-    display: flex;
 }
