@@ -2,7 +2,6 @@
   --primary-color: #864468d5;
   --secondary-color: #2ecc71;
   --text-color: #333;
-  --background-image: url("images/rafting.jpg");
 }
 * {
   margin: 0;
@@ -31,7 +30,8 @@ nav a {
 
 .hero {
   display: grid;
-  grid-template-columns: fr 1fr;
+  float: right;
+  grid-template-columns: 1fr;
   grid-column: 1/2;
   position: relative;
   justify-content: space-around;
