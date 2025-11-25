@@ -60,6 +60,7 @@ h1 {
 }
 
 .hero article {
+  float: right;
   position: absolute;
   justify-content: flex-start;
   margin-top: 50px;
