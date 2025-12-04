@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 body {
-  min-height: 100hv;
   position: relative;
   font-family: 'YourFontChoice', sans-serif;
   color: var(--text-color);
@@ -172,9 +171,9 @@ label, input {
   margin-top: 20px;
 }
 
-.msg input{
+.msg {
   display: grid;
-  height: 50px;
+  height: 90px;
   width: 330px;
 }
 button {
