@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #864468d5;
-  --secondary-color: #2ecc71;
+  --primary-color: #447086d5;
+  --secondary-color: #8cdbf8d5;
   --text-color: #333;
 }
 * {
@@ -14,7 +14,9 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-
+}
+.color {
+  background-color: rgb(101, 190, 237);
 }
 
 header {
@@ -103,10 +105,7 @@ article img {
   justify-self: center;
   margin-top: 100px;
 }
-.end {
-  display: grid;
-  grid-template-columns: 6fr 1fr 1fr 1fr;
-}
+
 footer {
   background-color: var(--secondary-color);
   text-align: center;
@@ -140,6 +139,10 @@ footer img {
   align-items: center;
   background-color: rgb(68, 109, 109);
   min-width: 100px;
+}
+.navigation:hover {
+  color: rgb(255, 174, 0);
+  transition: all 0.3s ease;
 }
 .content {
   display: flex;
@@ -192,4 +195,71 @@ figure {
 }
 .map {
   margin-top: 90px;
+}
+.imag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.imag img{
+  padding: 20px;
+  width: 170px;
+  height: 140px;
+}
+.homet img{
+  position: relative;
+}
+.homet .arr{
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  margin-top: 130px;
+  color: rgb(255, 21, 0);
+}
+.homet p {
+  color: rgb(255, 234, 0);
+  margin-top: 40px;
+  margin: 10px;
+  margin-left: 30px;
+}
+.homet a {
+  color: rgb(255, 0, 0);
+  margin-top: 50px;background-color: #011717;
+  text-decoration: none;
+  margin-left: 100px;
+  padding: 9px;
+}
+.homet a:hover {
+  color: aliceblue;
+}
+
+.arr table {
+  position: absolute;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+.arr table td, th{
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 20px;
+}
+.end {
+  position: relative;
+  justify-content: baseline;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
+
+}
+.imagefig {
+  position: relative;
+  display: flex;
+
+
 }
